@@ -48,7 +48,7 @@ const Weathercard = ({
 
         <div className="weatherInfo">
           <div className="temperature">
-            <span>{temp}&deg;C</span>
+            <span>{Math.round(temp)}&deg;C</span>
           </div>
 
           <div className="description">
